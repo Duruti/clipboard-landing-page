@@ -1,0 +1,90 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Bai Jamjuree', sans-serif;
+   color : hsl(201, 11%, 66%);
+   font-size: 18px ;
+   line-height: 30px;
+}
+h1{
+   margin-bottom: 20px;
+   font-size: 50px;
+   color : hsl(210, 10%, 33%);
+}
+.container{
+  box-sizing: initial;
+   position: relative;
+   max-width: 1440px;
+   background-color: white;
+   border: 1px solid #000;
+   margin: 0 auto;
+   margin-bottom: 200px;
+}
+.background{
+   position: absolute;
+   top:0;
+   width: 100%;
+   height: 363px;
+}
+#logo{
+   display: block;
+   margin: 130px auto;
+   background-color: yellowgreen;
+}
+.boxTitle{
+   max-width: 800px;
+   text-align: center;
+   margin: 0px auto 50px;
+}
+.titleH2 h2{
+   font-size: 35px;
+   margin: 20px;
+   color : hsl(210, 10%, 33%);
+}
+.titleH2 p{
+   font-size: 16px;
+}
+.boxBtn{
+   margin: 50px 0;
+   display: flex;
+   justify-content: center;
+}
+.btn{
+   color : white;
+      width : 230px;
+      height: 55px;
+      margin: 0 20px;
+      border-radius: 25px;
+      cursor: pointer;
+}
+.dlIos{
+   background-color:  hsl(171, 66%, 44%);
+}
+.dlMac{
+   background-color : hsl(233, 100%, 69%);
+}
+
+.fonctionality{
+   margin: 100px 0;
+   display: block;
+   max-width: 1440px;
+   height: 600px;
+   background-color: teal;
+}
+.img-devices{
+   display: block;
+   margin: 20px auto;
+}
+.options{
+   margin: 20px auto;
+   max-width: 1200px;
+   height: 600px;
+   background-color: orange;
+}
+footer{
+   margin: 20px auto 0;
+   width: 100%;
+   height: 150px;
+   background-color: rebeccapurple;
+}
