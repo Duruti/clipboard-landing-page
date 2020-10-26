@@ -7,6 +7,9 @@
    font-size: 18px ;
    line-height: 30px;
 }
+a{
+   text-decoration: none;
+}
 h1{
    margin-bottom: 20px;
    font-size: 50px;
@@ -30,7 +33,7 @@ h1{
 #logo{
    display: block;
    margin: 130px auto;
-   background-color: yellowgreen;
+  
 }
 .boxTitle{
    max-width: 800px;
@@ -45,6 +48,19 @@ h1{
 .titleH2 p{
    font-size: 16px;
 }
+
+.titleH3 h2{
+   text-align: left;
+   font-size: 28px;
+   margin: 16px 0 5px;
+   color : hsl(210, 10%, 33%);
+}
+.titleH3 p{
+   text-align: left;
+   /* margin: 20px 80px; */
+   font-size: 14px;
+}
+
 .boxBtn{
    margin: 50px 0;
    display: flex;
@@ -67,11 +83,29 @@ h1{
 
 .fonctionality{
    margin: 100px 0;
-   display: block;
+   
+   /* display: inline block; */
    max-width: 1440px;
-   height: 600px;
-   background-color: teal;
+  
+   display: flex;
 }
+.imgDesktop{
+   width: 50%;
+   background-size: cover;
+   /* height: 100%; */
+ 
+}
+.textfonctionality{
+   margin-left: 8% ;
+   padding-top: 50px;
+   width: 20%;
+   height: 100%;
+ 
+}
+
+
+
+
 .img-devices{
    display: block;
    margin: 20px auto;
@@ -79,12 +113,68 @@ h1{
 .options{
    margin: 20px auto;
    max-width: 1200px;
-   height: 600px;
-   background-color: orange;
+   height: 500px;
 }
+.listOptions{
+   width: 100%;
+   height: 50%;
+   display: flex;
+   /* align-items: center; */
+   align-content: center;
+}
+.boxOption{
+   text-align: center;
+   width: 70%;
+}
+.boxOption img{
+   margin: 20px 0;
+}
+.boxOption h4{
+   font-size: 22px ;
+   margin-bottom: 10px;
+   color: hsl(210, 10%, 33%);
+}
+.partenairs{
+   width: 100%;
+   height: 50%;
+   display: grid;
+   grid-template-columns: repeat(5,1fr);
+   align-items: center;
+   align-content: center;
+}
+.partenairs img{
+   justify-self: center;
+ }
 footer{
-   margin: 20px auto 0;
+   margin: 150px auto 0;
    width: 100%;
    height: 150px;
-   background-color: rebeccapurple;
+   background-color: #F5F6F8;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+.logoFooter{
+   width: 55px;
+   height: 55px;
+}
+.answers{
+   width: 500px;
+   height: 80px;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-template-rows: 1fr;
+   
+}
+.answers a{
+   color : hsl(210, 10%, 33%);
+}
+.socials{
+   width: 150px;
+   height: 30px;
+   display: flex;
+   justify-content: space-between;
+}
+.socials img{
+   width: 30px;
 }
