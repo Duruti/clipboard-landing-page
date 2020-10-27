@@ -73,14 +73,26 @@ h1{
       margin: 0 20px;
       border-radius: 25px;
       cursor: pointer;
+      border-style: none;
 }
+
 .dlIos{
    background-color:  hsl(171, 66%, 44%);
+   box-shadow:  0 3px #3A9282;
+}
+.btn.dlIos:hover{
+   background-color: #5DCCBB;
+   
+
 }
 .dlMac{
    background-color : hsl(233, 100%, 69%);
-}
+   box-shadow:  0 3px #505FDE;
 
+}
+.btn.dlMac:hover{
+   background-color: #8896FF;
+}
 .fonctionality{
    margin: 100px 0;
    
@@ -177,4 +189,94 @@ footer{
 }
 .socials img{
    width: 30px;
+}
+
+@media   screen and (max-width : 375px){
+   .container{
+      width: 100%;
+      margin: 0;
+   }
+   .background{
+      
+   }
+   .boxTitle{
+      width:100% ;
+      
+   }
+   .boxTitle h1{
+      font-size: 30px;
+      font-weight: 700;
+   }
+   .boxTitle h2{
+      font-size: 25px;
+      font-weight: 700;
+   }
+   .boxBtn{
+      flex-direction: column;
+      align-items: center;
+   }
+   .btn{
+      margin: 10px 0;
+   }
+   .fonctionality{
+      flex-direction: column;
+      align-items: center;
+   }
+   .textfonctionality{
+      width: 90%;
+      margin: 0;
+   }
+   .textfonctionality .titleH3{
+      margin: 0;
+      text-align: center;
+   }
+   .textfonctionality p{
+      text-align: center;
+   }
+
+   .img-devices{
+      width: 90%;
+   }
+   .options{
+      height: auto;
+   }
+   .listOptions{
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+      margin-bottom: 100px;
+   }
+   .boxOption{
+      margin-bottom: 40px;
+   }
+   .partenairs{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+      margin-bottom: 100px;
+   }
+   .partenairs img{
+      margin: 20px 0;
+   }
+   footer{
+      padding-top: 50px;
+      flex-direction: column;
+      height: auto;
+      justify-content: none;
+   }
+   .answers{
+      margin : 50px;
+      width: 100%;
+      display: flex;
+      height: auto;
+      flex-direction: column;
+   }
+   .answers a{
+      align-self: center;
+     
+   }
+   .socials{
+      margin-bottom: 40px;
+   }
 }
